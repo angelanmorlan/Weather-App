@@ -628,21 +628,22 @@ i {
   display: block;
   width: 100%;
   padding: 5px 25px;
-  background-color: #c0ffee; }
+  background-color: #c0ffee;
+  margin-left: -20px; }
 
-/* line 17, C:/Users/Angela/Desktop/Weather-App/css/styles.scss */
+/* line 18, C:/Users/Angela/Desktop/Weather-App/css/styles.scss */
 a {
   text-decoration: none; }
 
-/* line 20, C:/Users/Angela/Desktop/Weather-App/css/styles.scss */
+/* line 21, C:/Users/Angela/Desktop/Weather-App/css/styles.scss */
 ul {
   margin-top: 60px; }
 
-/* line 24, C:/Users/Angela/Desktop/Weather-App/css/styles.scss */
+/* line 25, C:/Users/Angela/Desktop/Weather-App/css/styles.scss */
 ul > li {
   line-height: 1.5em; }
 
-/* line 29, C:/Users/Angela/Desktop/Weather-App/css/styles.scss */
+/* line 30, C:/Users/Angela/Desktop/Weather-App/css/styles.scss */
 div h1 {
   font-size: 2.5em;
   margin-left: 25px;
@@ -650,19 +651,19 @@ div h1 {
   color: white;
   letter-spacing: 1.6px; }
 
-/* line 40, C:/Users/Angela/Desktop/Weather-App/css/styles.scss */
+/* line 41, C:/Users/Angela/Desktop/Weather-App/css/styles.scss */
 div {
   background-color: #0fd299;
   padding-top: 20px;
   width: 100%;
   padding-left: 25px; }
 
-/* line 50, C:/Users/Angela/Desktop/Weather-App/css/styles.scss */
+/* line 51, C:/Users/Angela/Desktop/Weather-App/css/styles.scss */
 h1, ul, a, p {
   font-family: 'Roboto Slab', serif;
   font-size: 1.3em; }
 
-/* line 55, C:/Users/Angela/Desktop/Weather-App/css/styles.scss */
+/* line 56, C:/Users/Angela/Desktop/Weather-App/css/styles.scss */
 #sidr {
   background: #c0ffee;
   display: block;
@@ -678,67 +679,67 @@ h1, ul, a, p {
   overflow-y: auto;
   transition: left .25s; }
 
-/* line 74, C:/Users/Angela/Desktop/Weather-App/css/styles.scss */
+/* line 75, C:/Users/Angela/Desktop/Weather-App/css/styles.scss */
 ul {
   font-size: 1em;
   padding-top: 20px; }
 
-/* line 79, C:/Users/Angela/Desktop/Weather-App/css/styles.scss */
+/* line 80, C:/Users/Angela/Desktop/Weather-App/css/styles.scss */
 section {
   position: absolute;
   height: 350px;
   width: 100%;
   padding-left: 25px; }
 
-/* line 92, C:/Users/Angela/Desktop/Weather-App/css/styles.scss */
+/* line 93, C:/Users/Angela/Desktop/Weather-App/css/styles.scss */
 ul > li #city-1:hover {
   color: #f54545; }
 
-/* line 95, C:/Users/Angela/Desktop/Weather-App/css/styles.scss */
+/* line 96, C:/Users/Angela/Desktop/Weather-App/css/styles.scss */
 ul > li #city-2:hover {
   color: green; }
 
-/* line 98, C:/Users/Angela/Desktop/Weather-App/css/styles.scss */
+/* line 99, C:/Users/Angela/Desktop/Weather-App/css/styles.scss */
 ul > li #city-3:hover {
   color: #7272f7; }
 
-/* line 101, C:/Users/Angela/Desktop/Weather-App/css/styles.scss */
+/* line 102, C:/Users/Angela/Desktop/Weather-App/css/styles.scss */
 ul > li #city-4:hover {
   color: purple; }
 
-/* line 104, C:/Users/Angela/Desktop/Weather-App/css/styles.scss */
+/* line 105, C:/Users/Angela/Desktop/Weather-App/css/styles.scss */
 ul > li #city-5:hover {
   color: #efae38; }
 
-/* line 107, C:/Users/Angela/Desktop/Weather-App/css/styles.scss */
+/* line 108, C:/Users/Angela/Desktop/Weather-App/css/styles.scss */
 ul > li #city-6:hover {
   color: gray; }
 
-/* line 110, C:/Users/Angela/Desktop/Weather-App/css/styles.scss */
+/* line 111, C:/Users/Angela/Desktop/Weather-App/css/styles.scss */
 #one {
   background: #f54545; }
 
-/* line 114, C:/Users/Angela/Desktop/Weather-App/css/styles.scss */
+/* line 115, C:/Users/Angela/Desktop/Weather-App/css/styles.scss */
 #two {
   background: green; }
 
-/* line 118, C:/Users/Angela/Desktop/Weather-App/css/styles.scss */
+/* line 119, C:/Users/Angela/Desktop/Weather-App/css/styles.scss */
 #three {
   background: #7272f7; }
 
-/* line 121, C:/Users/Angela/Desktop/Weather-App/css/styles.scss */
+/* line 122, C:/Users/Angela/Desktop/Weather-App/css/styles.scss */
 #four {
   background: purple; }
 
-/* line 124, C:/Users/Angela/Desktop/Weather-App/css/styles.scss */
+/* line 125, C:/Users/Angela/Desktop/Weather-App/css/styles.scss */
 #five {
   background: #efae38; }
 
-/* line 127, C:/Users/Angela/Desktop/Weather-App/css/styles.scss */
+/* line 128, C:/Users/Angela/Desktop/Weather-App/css/styles.scss */
 #six {
   background: gray; }
 
-/* line 131, C:/Users/Angela/Desktop/Weather-App/css/styles.scss */
+/* line 132, C:/Users/Angela/Desktop/Weather-App/css/styles.scss */
 :target {
   z-index: 1; }
 
