@@ -1,4 +1,134 @@
 /* Styling */
-body {
-    background: red;
+@import "normalize";
+@import "weatherfonts";
+
+// Minimal initial style of sidebar
+
+.drawer {
+  left: 0;
 }
+.toggle-drawer {
+  display: block;
+  padding: 5px 25px;
+  background-color: #c0ffee;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  //list-style-type: ;
+  margin-top: 25px; 
+}
+ul > li a {
+  line-height: 1.5em;
+}
+  
+
+div h1 {
+  font-size: 2.5em;
+  padding-left: 25px;
+  padding-bottom: 100px;
+  color: white;
+  letter-spacing: 1.6px;
+  
+}
+div {
+  
+  padding-bottom: 0;
+  padding-top: 7px;
+  background-image: url("http://www.cray.com/blog/wp-content/uploads/2015/09/Weather-Blog-Image.jpg");
+  background-size: cover;
+  background-color: #0fd299;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  
+  
+}
+h1, ul, a, p  {
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.3em;
+}
+
+.sidr {
+  background: #c0ffee;
+  display: block;
+  position: fixed;
+  top: 0;
+  height: 100%;
+  min-height: 100%;
+  left: -270px;
+  width: 270px;
+  right: auto;
+  // always on top
+  z-index: 999999;
+  overflow-x: hidden;
+  overflow-y: auto;
+  transition: left .25s;
+    
+  
+
+}
+ul {
+  font-size: 1em;
+  padding-top: 20px;
+}
+section {
+  position: absolute;
+  height: 350px;
+  width: 100%;
+  padding-left: 25px;
+  
+  
+  
+}
+
+
+
+ul > li #city-1:hover {
+  color: #f54545;
+}
+ul > li #city-2:hover {
+  color: green;
+}
+ul > li #city-3:hover {
+  color: #7272f7;
+}
+ul > li #city-4:hover {
+  color: purple;
+}
+ul > li #city-5:hover {
+  color: #efae38;
+}
+ul > li #city-6:hover {
+  color: gray;
+}
+#one {
+  background: #f54545;
+}
+// Section 2
+#two {
+  background: green;
+}
+// Section 3
+#three {
+  background: #7272f7;
+}
+#four {
+  background: purple;
+}
+#five {
+  background: #efae38;
+}
+#six {
+  background: gray;
+}
+// :target Selection from Sidebar
+:target {
+  z-index: 1;
+}
+
+
+
+
+  

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
         
-    <title>Web 2 Starter</title>
+    <title>Weather App</title>
     
     <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
@@ -13,18 +13,134 @@
     <link rel="mask-icon" href="img/favicons/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="theme-color" content="#ffffff">
 
-    <link rel="stylesheet" href="css/normalize.css">   
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab" rel="stylesheet">   
     <link rel="stylesheet" href="css/styles.css">
 
 </head>
 <body>
+    <div>
+  <h1>Angela's Weather App</h1>
+  <a class="toggle-drawer"href="#sidr">&#9776;  Current Weather </a>
+</div> 
+
+
+
+<aside id="sidr">
+    <a class="toggle-drawer">&#x2715;</a>
+    <ul>
+      <li><i><a href="#one" id="city-1">Your Local Weather</a></i></li>
+            <li><a href="#two" id="city-2">Cheney</a></li>
+            <li><a href="#three" id="city-3">Spokane</a></li>
+            <li><a href="#four" id="city-4">Seattle</a></li>
+            <li><a href="#five" id="city-5">Post Falls</a></li>
+            <li><a href="#six" id="city-6">Coeur d'Alene</a></li>
+          </ul>
+</aside>
+<section id="one">
+    <figure>
+             <!--<a class="toggle-drawer">&#9776;</a>-->
+      <h1 class="city">City</h1>
+      <p><span class="temp">00</span>&#x2109;</p>
+      <p>Low: <span class="low">00</span>&#x2109;</p>
+      <p>High: <span class="high">00</span>&#x2109;</p>
+      <img src="http://placehold.it/100x100" alt="" />
+  </figure>
+
+  
+
+<figure>
+  <h1><span class="next-day">Day</span></h1>
+  <h1><span class="calendar-date">Date</span>     </h1>
+  <p>Low: <span class="low">00</span>&#x2109;</p>
+  <p>High: <span class="high">00</span>&#x2109;</p>
+  <img src="http://placehold.it/100x100" alt="" />
+</figure>
+  
+<figure>
+  <h1><span class="next-day">Day</span></h1>
+  <h1><span class="calendar-date">Date</span>     </h1>
+  <p>Low: <span class="low">00</span>&#x2109;</p>
+  <p>High: <span class="high">00</span>&#x2109;</p>
+  <img src="http://placehold.it/100x100" alt="" />
+</figure>
+
+<figure>
+  <h1><span class="next-day">Day</span></h1>
+  <h1><span class="calendar-date">Date</span>     </h1>
+  <p>Low: <span class="low">00</span>&#x2109;</p>
+  <p>High: <span class="high">00</span>&#x2109;</p>
+  <img src="http://placehold.it/100x100" alt="" />
+</figure>
+  
+<figure>
+  <h1><span class="next-day">Day</span></h1>
+  <h1><span class="calendar-date">Date</span>     </h1>
+  <p>Low: <span class="low">00</span>&#x2109;</p>
+  <p>High: <span class="high">00</span>&#x2109;</p>
+  <img src="http://placehold.it/100x100" alt="" />
+</figure>
+  
+<figure>
+  <h1><span class="next-day">Day</span></h1>
+  <h1><span class="calendar-date">Date</span>     </h1>
+  <p>Low: <span class="low">00</span>&#x2109;</p>
+  <p>High: <span class="high">00</span>&#x2109;</p>
+  <img src="http://placehold.it/100x100" alt="" />
+</figure>
+
+<figure>
+  <h1><span class="next-day">Day</span></h1>
+  <h1><span class="calendar-date">Date</span>     </h1>
+  <p>Low: <span class="low">00</span>&#x2109;</p>
+  <p>High: <span class="high">00</span>&#x2109;</p>
+  <img src="http://placehold.it/100x100" alt="" />
+</figure>
+  
+  
+  
+</section>  
+
+
+    <!-- Section 2 -->
+    <section id="two">
+      <!--<a class="toggle-drawer">&#9776;</a>-->
+      <p class="city">City</p>
+      <p><span class="temp">00</span>&#x2109;</p>
+    </section>
+
+    <!-- Section 3 -->
+    <section id="three">
+      <!--<a class="toggle-drawer">&#9776;</a>-->
+      <p class="city">City</p>
+      <p><span class="temp">00</span>&#x2109;</p>
+    </section>
+
+    <section id="four">
+      <!--<a class="toggle-drawer">&#9776;</a>-->
+      <p class="city">City</p>
+      <p><span class="temp">00</span>&#x2109;</p>
+    </section>
     
-    <h1>Web 2 Starter</h1>
+    <section id="five">
+      <!--<a class="toggle-drawer">&#9776;</a>-->
+      <p class="city">City</p>
+      <p><span class="temp">00</span>&#x2109;</p>
+    </section>
+
+    <section id="six">
+      <!--<a class="toggle-drawer">&#9776;</a>-->
+      <p class="city">City</p>
+      <p><span class="temp">00</span>&#x2109;</p>
+    </section>
+
     
     
     
     <!-- Scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.simpleWeather/3.1.0/jquery.simpleWeather.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sidr/2.2.1/jquery.sidr.min.js"></script>
     <script src="js/plugin.js"></script>
     <script src="js/scripts.js"></script>
     
