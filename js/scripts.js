@@ -1,5 +1,11 @@
 // Scripts
+// call Sidr Plugin. Toggle by Default
 $('.toggle-drawer').sidr();
+
+// Close from inside
+//$('.toggle-drawer').sidr({
+//  method: 'close'
+//});
 
 $('.toggle-drawer').click( function() {
   
@@ -39,50 +45,6 @@ $('#city-1').on('click', function() {
       $('#one figure:nth-child(1) img').attr('src', weather.forecast[0].image);
         
 
-    
-
-
-    // Display Data : Day 2
-    $('#one figure:nth-child(2) .next-day').text(weather.forecast[1].day);
-    $('#one figure:nth-child(2) .calendar-date').text(weather.forecast[1].date);
-    $('#one figure:nth-child(2) .low').text(weather.forecast[1].low);
-    $('#one figure:nth-child(2) .high').text(weather.forecast[1].high);
-    $('#one figure:nth-child(2) img').attr('src', weather.forecast[1].image);
-
-    // Display Data : Day 3
-    $('#one figure:nth-child(3) .next-day').text(weather.forecast[2].day);
-    $('#one figure:nth-child(3) .calendar-date').text(weather.forecast[2].date);
-    $('#one figure:nth-child(3) .low').text(weather.forecast[2].low);
-    $('#one figure:nth-child(3) .high').text(weather.forecast[2].high);
-    $('#one figure:nth-child(3) img').attr('src', weather.forecast[2].image);
-
-    // Display Data : Day 4
-    $('#one figure:nth-child(4) .next-day').text(weather.forecast[3].day);
-    $('#one figure:nth-child(4) .calendar-date').text(weather.forecast[3].date);
-    $('#one figure:nth-child(4) .low').text(weather.forecast[3].low);
-    $('#one figure:nth-child(4) .high').text(weather.forecast[3].high);
-    $('#one figure:nth-child(4) img').attr('src', weather.forecast[3].image);
-
-    // Display Data : Day 5
-    $('#one figure:nth-child(5) .next-day').text(weather.forecast[4].day);
-    $('#one figure:nth-child(5) .calendar-date').text(weather.forecast[4].date);
-    $('#one figure:nth-child(5) .low').text(weather.forecast[4].low);
-    $('#one figure:nth-child(5) .high').text(weather.forecast[4].high);
-    $('#one figure:nth-child(5) img').attr('src', weather.forecast[4].image);
-
-    // Display Data : Day 6
-    $('#one figure:nth-child(6) .next-day').text(weather.forecast[5].day);
-    $('#one figure:nth-child(6) .calendar-date').text(weather.forecast[5].date);
-    $('#one figure:nth-child(6) .low').text(weather.forecast[5].low);
-    $('#one figure:nth-child(6) .high').text(weather.forecast[5].high);
-    $('#one figure:nth-child(6) img').attr('src', weather.forecast[5].image);
-
-    // Display Data : Day 7
-    $('#one figure:nth-child(7) .next-day').text(weather.forecast[6].day);
-    $('#one figure:nth-child(7) .calendar-date').text(weather.forecast[6].date);
-    $('#one figure:nth-child(7) .low').text(weather.forecast[6].low);
-    $('#one figure:nth-child(7) .high').text(weather.forecast[6].high);
-    $('#one figure:nth-child(7) img').attr('src', weather.forecast[6].image);
 
   },
   error: function(error) {
@@ -106,8 +68,11 @@ $('#city-2').on('click', function() {
       console.log(weather);
       
       // Display Data
-      $('#two .temp').text(weather.temp);
-      $('#two .city').text(weather.city);
+      $('#two figure:nth-child(1) .city').text(weather.city);
+      $('#two figure:nth-child(1) .temp').text(weather.temp);
+      $('#two figure:nth-child(1) .low').text(weather.forecast[0].low);
+      $('#two figure:nth-child(1) .high').text(weather.forecast[0].high);
+      $('#two figure:nth-child(1) img').attr('src', weather.forecast[0].image);
       
     },
     error: function(error) {
@@ -131,8 +96,11 @@ $('#city-3').on('click', function() {
       console.log(weather);
       
       // Display Data
-      $('#three .temp').text(weather.temp);
-      $('#three .city').text(weather.city);
+      $('#three figure:nth-child(1) .city').text(weather.city);
+      $('#three figure:nth-child(1) .temp').text(weather.temp);
+      $('#three figure:nth-child(1) .low').text(weather.forecast[0].low);
+      $('#three figure:nth-child(1) .high').text(weather.forecast[0].high);
+      $('#three figure:nth-child(1) img').attr('src', weather.forecast[0].image);
       
     },
     error: function(error) {
@@ -154,8 +122,11 @@ $('#city-4').on('click', function() {
       console.log(weather);
       
       // Display Data
-      $('#four .temp').text(weather.temp);
-      $('#four .city').text(weather.city);
+      $('#four figure:nth-child(1) .city').text(weather.city);
+      $('#four figure:nth-child(1) .temp').text(weather.temp);
+      $('#four figure:nth-child(1) .low').text(weather.forecast[0].low);
+      $('#four figure:nth-child(1) .high').text(weather.forecast[0].high);
+      $('#four figure:nth-child(1) img').attr('src', weather.forecast[0].image);
       
     },
     error: function(error) {
@@ -177,8 +148,11 @@ $('#city-5').on('click', function() {
       console.log(weather);
       
       // Display Data
-      $('#five .temp').text(weather.temp);
-      $('#five .city').text(weather.city);
+      $('#five figure:nth-child(1) .city').text(weather.city);
+      $('#five figure:nth-child(1) .temp').text(weather.temp);
+      $('#five figure:nth-child(1) .low').text(weather.forecast[0].low);
+      $('#five figure:nth-child(1) .high').text(weather.forecast[0].high);
+      $('#five figure:nth-child(1) img').attr('src', weather.forecast[0].image);
       
     },
     error: function(error) {
@@ -200,8 +174,11 @@ $('#city-6').on('click', function() {
       console.log(weather);
       
       // Display Data
-      $('#six .temp').text(weather.temp);
-      $('#six .city').text(weather.city);
+      $('#six figure:nth-child(1) .city').text(weather.city);
+      $('#six figure:nth-child(1) .temp').text(weather.temp);
+      $('#six figure:nth-child(1) .low').text(weather.forecast[0].low);
+      $('#six figure:nth-child(1) .high').text(weather.forecast[0].high);
+      $('#six figure:nth-child(1) img').attr('src', weather.forecast[0].image);
       
     },
     error: function(error) {
@@ -212,3 +189,6 @@ $('#city-6').on('click', function() {
   }); 
   
 });
+
+
+
